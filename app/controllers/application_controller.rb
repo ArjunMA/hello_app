@@ -3,6 +3,7 @@ class ApplicationController < ActionController::Base
  
   def hello
   	render html: "hello, world!"
+  	render html: "welcome to the world of ruby on rails"
   end	
 
 end
